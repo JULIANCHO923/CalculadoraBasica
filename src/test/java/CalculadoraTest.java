@@ -19,7 +19,7 @@ public class CalculadoraTest extends TestCase {
         double resultadoActual = calculadora.suma(n1,n2);
 
         //Assert
-        Assert.assertEquals("La resta realizada no coincide: Se esperaba: "+resultadoEsperado + " resulto:" + resultadoActual,resultadoEsperado,resultadoActual,deltaEsperado);
+        Assert.assertEquals("Lo logre RM La resta realizada no coincide: Se esperaba: "+resultadoEsperado + " resulto:" + resultadoActual,resultadoEsperado,resultadoActual,deltaEsperado);
     }
 
 }
