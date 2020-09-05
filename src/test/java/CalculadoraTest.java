@@ -16,10 +16,10 @@ public class CalculadoraTest extends TestCase {
         double resultadoEsperado = 1;
         double deltaEsperado = 0;
         //Act
-        double resultadoActual = calculadora.suma(n1,n2);
+        double resultadoActual = calculadora.suma(n1, n2);
 
         //Assert
-        Assert.assertEquals("La resta realizada no coincide: Se esperaba: "+resultadoEsperado + " resulto:" + resultadoActual,resultadoEsperado,resultadoActual,deltaEsperado);
+        Assert.assertEquals("La resta realizada no coincide: Se esperaba: " + resultadoEsperado + " resulto:" + resultadoActual, resultadoEsperado, resultadoActual, deltaEsperado);
     }
 
     public void testMultiplicacion() {
@@ -29,11 +29,9 @@ public class CalculadoraTest extends TestCase {
         double resultadoEsperado = 20;
         double deltaEsperado = 0;
         //Act
-        double resultadoActual = calculadora.multiplicacion(n1,n2);
+        double resultadoActual = calculadora.multiplicacion(n1, n2);
         //Assert
-        Assert.assertEquals("La multiplicación realizada no coincide: Se
-       esperaba: "+resultadoEsperado + " resulto:" +
-       resultadoActual,resultadoEsperado,resultadoActual,deltaEsperado);
+        Assert.assertEquals("La multiplicación realizada no coincide: Se esperaba:" + resultadoEsperado + " resulto: " + resultadoActual, resultadoEsperado, resultadoActual, deltaEsperado);
     }
 
     public void testDivision() {
@@ -43,12 +41,10 @@ public class CalculadoraTest extends TestCase {
         double resultadoEsperado = 1;
         double deltaEsperado = 0;
         //Act
-        double resultadoActual = calculadora.division(n1,n2);
+        double resultadoActual = calculadora.division(n1, n2);
         //Assert
-        Assert.assertEquals("La division realizada no coincide: Se esperaba:
-       "+resultadoEsperado + " resulto:" +
-       resultadoActual,resultadoEsperado,resultadoActual,deltaEsperado);
+        Assert.assertEquals("La division realizada no coincide: Se esperaba: " + resultadoEsperado + " resulto:" + resultadoActual, resultadoEsperado, resultadoActual, deltaEsperado);
     }
-       
+
 
 }
