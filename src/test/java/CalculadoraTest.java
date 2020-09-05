@@ -11,7 +11,7 @@ public class CalculadoraTest extends TestCase {
 
     public void testSuma() {
         // Arrange
-        double n1 = 0;
+        double n1 = 2;
         double n2 = 1;
         double resultadoEsperado = 1;
         double deltaEsperado = 0;
